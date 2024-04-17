@@ -1,6 +1,6 @@
 import { ChatMessageType, ModalList, useSettings } from "../store/store";
 
-const apiUrl = "https://api.openai.com/v1/chat/completions";
+const apiUrl = "https://openrouter.ai/api/v1/chat/completions";
 const IMAGE_GENERATION_API_URL = "https://api.openai.com/v1/images/generations";
 
 export async function fetchResults(
