@@ -13,7 +13,7 @@ export default function GptIntro() {
     <>
       <div className="modals md:w-1/5 md:min-w-[300px] mx-2 relative flex items-center rounded-md justify-between mt-5 md:mx-auto  bg-gray-200 dark:bg-[#202123] gap-2">
         <button
-          title="GPT-3 Turbo"
+          title="DevilGPT"
           className={classNames(
             "gpt3 uppercase  rounded-md  font-bold p-2 transition  flex-1 flex items-center  dark:text-white justify-center",
             {
@@ -23,7 +23,7 @@ export default function GptIntro() {
             }
           )}
           type="button"
-          onClick={() => setModel("gpt-3.5-turbo")}
+          onClick={() => setModel("undi95/toppy-m-7b:free")}
         >
           <span
             className={classNames(" mr-2 transition", {
@@ -32,11 +32,11 @@ export default function GptIntro() {
           >
             <i className="fa-solid fa-bolt "></i>
           </span>
-          <span className="mr-2">gpt - 3.5</span>
+          <span className="mr-2">devil gpt</span>
         </button>
 
         <button
-          title="GPT - 4"
+          title="DevilGPT Pro"
           className={classNames(
             "gpt4 uppercase rounded p-2 transition  dark:text-white flex-1 flex  items-center justify-center",
             {
@@ -45,7 +45,7 @@ export default function GptIntro() {
               "opacity-50": isGptThreeSelected,
             }
           )}
-          onClick={() => setModel("gpt-4")}
+          onClick={() => setModel("undi95/toppy-m-7b:free")}
         >
           <span
             className={classNames("mr-2 transition", {
@@ -54,12 +54,12 @@ export default function GptIntro() {
           >
             <IonIcon icon={sparkles} />
           </span>
-          <span className="mr-2">gpt - 4</span>
+          <span className="mr-2">devil gpt - pro</span>
         </button>
       </div>
       <div className=" h-96 flex items-start justify-center">
         <h1 className=" text-4xl font-bold mt-5 text-center text-gray-300">
-          ChatGPT
+          DevilGPT
         </h1>
       </div>
     </>
