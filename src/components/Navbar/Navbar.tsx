@@ -52,14 +52,14 @@ export default function Navbar({
   );
 
   return (
-    <nav>
+    <>
       <div
         className={classnames(
           "navwrap fixed duration-500 top-0 left-0 bottom-0 right-0 md:right-[calc(100vw-260px)] z-30 bg-gray-500 md:bg-opacity-0 ",
           { "bg-opacity-60 ": active, "opacity-0 pointer-events-none": !active }
         )}
       >
-      
+        <nav>
           <div className="flex mb-2  items-center justify-between gap-2 p-2">
             <button
               type="button"
