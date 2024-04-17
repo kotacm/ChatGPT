@@ -17,7 +17,7 @@ export async function fetchResults(
       headers: {
         "content-type": `application/json`,
         accept: `text/event-stream`,
-        Authorization: `Bearer ${localStorage.getItem("apikey")}`,
+        Authorization: `Bearer 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`,
       },
       body: JSON.stringify({
         model: useSettings.getState().settings.selectedModal,
