@@ -83,7 +83,7 @@ function App() {
                   ></i>
                 </span>
                 By DevilDev
-                </a>
+                
               </footer>
             </div>
           </div>
