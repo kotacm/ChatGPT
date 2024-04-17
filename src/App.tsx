@@ -82,7 +82,7 @@ function App() {
                     aria-hidden="true"
                   ></i>
                 </span>
-                By DevilDev
+                By <a href="https://t.me/cat_asm">kot.acm</a>a>
                 
               </footer>
             </div>
