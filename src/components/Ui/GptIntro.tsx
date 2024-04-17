@@ -13,7 +13,7 @@ export default function GptIntro() {
     <>
       <div className="modals md:w-1/5 md:min-w-[300px] mx-2 relative flex items-center rounded-md justify-between mt-5 md:mx-auto  bg-gray-200 dark:bg-[#202123] gap-2">
         <button
-          title="DevilGPT"
+          title="EvilAI"
           className={classNames(
             "gpt3 uppercase  rounded-md  font-bold p-2 transition  flex-1 flex items-center  dark:text-white justify-center",
             {
@@ -32,11 +32,11 @@ export default function GptIntro() {
           >
             <i className="fa-solid fa-bolt "></i>
           </span>
-          <span className="mr-2">devil gpt</span>
+          <span className="mr-2">EvilAI (old)</span>
         </button>
 
         <button
-          title="DevilGPT Pro"
+          title="EvilAI - New"
           className={classNames(
             "gpt4 uppercase rounded p-2 transition  dark:text-white flex-1 flex  items-center justify-center",
             {
@@ -54,7 +54,7 @@ export default function GptIntro() {
           >
             <IonIcon icon={sparkles} />
           </span>
-          <span className="mr-2">devil gpt - pro</span>
+          <span className="mr-2">EvilAI - New</span>
         </button>
       </div>
       <div className=" h-96 flex items-start justify-center">
