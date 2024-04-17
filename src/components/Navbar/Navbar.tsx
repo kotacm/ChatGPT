@@ -102,7 +102,7 @@ export default function Navbar({
                   >
                     {groupedModels[group].map((modal) => (
                       <option value={modal} key={modal}>
-                        
+                        evilai-2:pro
                       </option>
                     ))}
                   </optgroup>
