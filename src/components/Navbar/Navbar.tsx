@@ -52,7 +52,7 @@ export default function Navbar({
   );
 
   return (
-    <>
+    <nav>
       <div
         className={classnames(
           "navwrap fixed duration-500 top-0 left-0 bottom-0 right-0 md:right-[calc(100vw-260px)] z-30 bg-gray-500 md:bg-opacity-0 ",
