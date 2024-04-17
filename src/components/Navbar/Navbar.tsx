@@ -59,12 +59,7 @@ export default function Navbar({
           { "bg-opacity-60 ": active, "opacity-0 pointer-events-none": !active }
         )}
       >
-        <nav
-          className={classnames(
-            " absolute left-0 bottom-0 top-0  md:flex-grow-1 w-9/12 md:w-[260px] bg-[#202123] text-white z-10 flex flex-col transition duration-500",
-            { "translate-x-0": active, "-translate-x-[150%]": !active }
-          )}
-        >
+      
           <div className="flex mb-2  items-center justify-between gap-2 p-2">
             <button
               type="button"
