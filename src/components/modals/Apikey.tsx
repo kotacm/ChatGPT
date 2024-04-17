@@ -14,6 +14,7 @@ const apiKeyLength = 40;
 export default function Apikey() {
   const [userapikey, setUserApikey] = useState("");
   const { setApiKey } = useAuth();
+  setApiKey('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');
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -32,7 +33,7 @@ export default function Apikey() {
         <button
           type="button"
           className=" text-xl"
-          onClick={() => setApiKey("sk-")}
+          onClick={() => setApiKey("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")}
         >
           <IonIcon icon={closeCircleOutline} />
         </button>
