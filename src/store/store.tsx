@@ -7,17 +7,7 @@ import moment from "moment";
 import { ImageSize } from "../services/chatService";
 
 const modalsList = [
-  "gpt-3.5-turbo",
-  "gpt-3.5-turbo-1106",
-  "gpt-3.5-turbo-16k-0613",
-  "gpt-3.5-turbo-16k",
-  "gpt-3.5-turbo-0613",
-  "gpt-4",
-  "gpt-4-0613",
-  "gpt-4-0314",
-  "gpt-4-1106-preview",
-  "dall-e-3",
-  "dall-e-2",
+  "undi95/toppy-m-7b:free",
 ] as const;
 
 export interface ChatMessageType {
@@ -227,7 +217,7 @@ const useAuth = create<AuthType>()(
   persist(
     (set) => ({
       token: localStorage.getItem("token") || "",
-      apikey: localStorage.getItem("apikey") || "",
+      apikey: "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",
       user: {
         name: "Your name?",
         email: "",
@@ -269,7 +259,7 @@ const useSettings = createWithEqualityFn<SettingsType>()(
         sendChatHistory: false,
         systemMessage: "",
         useSystemMessageForAllChats: false,
-        selectedModal: "gpt-3.5-turbo",
+        selectedModal: "undi95/toppy-m-7b:free",
         dalleImageSize: { "dall-e-2": "256x256", "dall-e-3": "1024x1024" },
       },
       modalsList: modalsList,
