@@ -102,7 +102,7 @@ export default function Navbar({
                   >
                     {groupedModels[group].map((modal) => (
                       <option value={modal} key={modal}>
-                        {modal}
+                        
                       </option>
                     ))}
                   </optgroup>
