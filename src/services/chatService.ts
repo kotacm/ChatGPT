@@ -17,7 +17,7 @@ export async function fetchResults(
       headers: {
         "content-type": `application/json`,
         accept: `text/event-stream`,
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer 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`,
       },
       body: JSON.stringify({
         model: useSettings.getState().settings.selectedModal,
